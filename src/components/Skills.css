@@ -1,0 +1,30 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.skill-category {
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  padding: 25px;
+  border: 1px solid var(--border-color);
+}
+
+.skill-category h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  background-color: var(--border-color);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
